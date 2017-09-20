@@ -1,0 +1,18 @@
+.Collapsible__trigger {
+  div {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  i.fa {
+    transition: all 0.3s ease-in-out;
+  }
+
+  &.is-open {
+    i.fa {
+      transform: rotate(-180deg);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
